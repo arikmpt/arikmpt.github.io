@@ -4,9 +4,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Ari Putra</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                AP
+            </a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="bg-img">
+        <img src="images/bg-img.jpg" alt="" class="img-responsive">
+    </div>
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="profile-section">
+                                <div class="d-flex">
+                                    <img src="https://via.placeholder.com/150" alt="" class="img-responsive img-circle">
+                                    <div class="profile-info align-self-center">
+                                        <h2>Ari Putra</h2>
+                                        <p>Full Stack Developer</p>
+                                        <span><i class="fa-solid fa-location-dot"></i> Batam, Indonesia</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="about-section">
+                                <h5>About Me</h5>
+                                <p>I'm a fullstack developer with php, javascript, typescript experience. I'm happy to learn new programming language and technology and i'm also a happy person</p>
+                            </div>
+                            <div class="contact-section">
+                                <h5>Contact Me</h5>
+                                <p><i class="fa-brands fa-whatsapp"></i> +628117044456</p>
+                                <p><i class="fa-solid fa-envelope"></i> ariteknologi@gmail.com</p>
+                                <div class="social-media-section">
+                                    <a href="#" target="__blank"><i class="fa-brands fa-linkedin"></i></a>
+                                    <a href="#" target="__blank"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
+                            <div class="skill-section">
+                                <h5>Skills</h5>
+                                <ul>
+                                    <li><b>Programming Language:</b> PHP, Javascript, Typescript</li>
+                                    <li><b>Framework:</b> Laravel, Lumen, Express Js, Next Js</li>
+                                    <li><b>Library:</b> React Js, React Native</li>
+                                    <li><b>API:</b> Resful, GraphQL</li>
+                                    <li><b>Database:</b> MySQL, PostgreSQL, MongoDB</li>
+                                    <li><b>Architecture:</b> Monolith, Microservice, MonoRepo</li>
+                                    <li><b>Others:</b> HTML, CSS</li>
+                                </ul>
+                            </div>
+                            <hr>
+                            <div class="education-section">
+                                <h5>Education</h5>
+                                <p><i>Diploma III, Computer Engineering</i></p>
+                                <p>Sekolah Tinggi Teknologi Payakumbuh</p>
+                                <p>GPA : 3.08 <i>Scale 1 - 4</i></p>
+                            </div>
+                            <div class="language-section">
+                                <h5>Language</h5>
+                                <p>English (Active), Indonesia  (Native)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="working-tab" data-bs-toggle="tab" data-bs-target="#working" type="button" role="tab" aria-controls="working" aria-selected="true">
+                              Working Experience
+                          </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="project-tab" data-bs-toggle="tab" data-bs-target="#project" type="button" role="tab" aria-controls="project" aria-selected="false">
+                              Recents Project
+                          </button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="working" role="tabpanel" aria-labelledby="working-tab">
+                            working
+                        </div>
+                        <div class="tab-pane fade" id="project" role="tabpanel" aria-labelledby="project-tab">
+                            project
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
